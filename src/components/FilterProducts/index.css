@@ -1,0 +1,24 @@
+.size-filter-box {
+	width: 25%;
+	display: flex;
+	padding: 10px;
+	background-color: #f2f2f2;
+	position: fixed;
+	top: 36px;
+	flex-direction: column;
+	left: 0;
+	height: 200px;
+}
+.size-filter-body {
+	width: 30px;
+	background-color: #bfbfbf;
+	height: 30px;
+	display: flex;
+	border-radius: 15px;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.it-is-filtered {
+	background-color: #2874f0;
+}

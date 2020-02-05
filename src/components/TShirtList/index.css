@@ -1,0 +1,56 @@
+.tshirt-list-container {
+	display: flex;
+	flex-direction: column;
+}
+.product-list-container {
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+	padding: 15px;
+	margin-left: 25%;
+	margin-top: 36px;
+}
+.product-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.product-details-box:not(:first-child) {
+	margin-left: 10px;
+}
+.product-list-size-filter {
+	display: flex;
+}
+
+.filter-types-list {
+	display: flex;
+	justify-content: space-between;
+}
+.product-title,
+.product-price {
+	text-align: center;
+}
+.cart-btn {
+	width: 100%;
+	background: #000;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	padding: 20px;
+}
+.products-found-order-by {
+	display: flex;
+	justify-content: space-between;
+}
+.order-by-select {
+	display: flex;
+}
+.img-free-text-box {
+	display: flex;
+}
+.free-shopping-text {
+	background-color: #000;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	padding: 10px;
+}
